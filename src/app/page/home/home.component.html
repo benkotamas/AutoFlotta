@@ -1,0 +1,21 @@
+<h2>Tankolási Statisztika</h2>
+<div class="row">
+  <div class="col-6">
+    <div class="home-box">
+      <h3>Tankolás jármű szerint</h3>
+      <google-chart *ngIf="vehicleChart" [data]="vehicleChart"></google-chart>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="home-box">
+      <h3>Tankolás sofőr szerint</h3>
+      <google-chart *ngIf="driverChart" [data]="driverChart"></google-chart>
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="home-box">
+      <h3>Napi statisztika</h3>
+      <google-chart *ngIf="dayChart" [data]="dayChart"></google-chart>
+    </div>
+  </div>
+</div>

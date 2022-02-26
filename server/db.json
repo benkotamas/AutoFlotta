@@ -1,0 +1,100 @@
+{
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Johnny",
+      "email": "p@g.com",
+      "phone": "36214585",
+      "city": "la",
+      "address": "Gróf Teleki"
+    },
+    {
+      "id": 2,
+      "name": "Jackie",
+      "email": "j@gmail.com",
+      "phone": "36244444",
+      "city": "la",
+      "address": "Arany János"
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "email": "charlie@gmail.com",
+      "phone": "362342332",
+      "city": "bp",
+      "address": "23. Street"
+    },
+    {
+      "name": "Brad",
+      "email": "brad@gmail.com",
+      "phone": "3634564",
+      "city": "bp",
+      "address": "Spooner street",
+      "id": 4
+    },
+    {
+      "name": "Hide",
+      "email": "hide@gmail.com",
+      "phone": "364552456",
+      "city": "bp",
+      "address": "Gróf Teleki",
+      "id": 5
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "lp": "GOD-258",
+      "year": 2015,
+      "manufacturer": "VW",
+      "consumption": 7,
+      "engine": "Diesel"
+    },
+    {
+      "lp": "AAA-222",
+      "year": "2002",
+      "manufacturer": "Mercedes",
+      "consumption": "12",
+      "engine": "Benzin",
+      "id": 2
+    },
+    {
+      "lp": "BBB-455",
+      "year": "2017",
+      "manufacturer": "Volvo",
+      "consumption": "10",
+      "engine": "Diesel",
+      "id": 3
+    }
+  ],
+  "fuelings": [
+    {
+      "id": 1,
+      "vehicleId": 1,
+      "driverId": 1,
+      "amount": 40,
+      "date": "2022-02-26"
+    },
+    {
+      "vehicleId": "2",
+      "driverId": "2",
+      "amount": "100",
+      "date": "2022-02-26",
+      "id": 2
+    },
+    {
+      "vehicleId": "3",
+      "driverId": "3",
+      "amount": "47",
+      "date": "2022-02-25",
+      "id": 3
+    },
+    {
+      "vehicleId": "3",
+      "driverId": "4",
+      "amount": "20",
+      "date": "2022-02-24",
+      "id": 4
+    }
+  ]
+}
